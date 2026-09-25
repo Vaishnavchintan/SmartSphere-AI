@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment secrets
+.env
+.env.local
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Static analysis tools
+.ruff_cache/
+.mypy_cache/
+
+# Databases and Vector indexes
+*.db
+*.sqlite3
+faiss_index/
+
+# Generated review artifacts
+report.md
+system_audit.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
